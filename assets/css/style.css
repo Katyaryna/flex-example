@@ -1,0 +1,149 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    background-color: #ffdc9b;
+}
+.content{
+    flex:1 1 auto;
+}
+
+
+/*Navigation*/
+.header{
+    font-size:35px;
+    color:#fff;
+    margin:10px auto;
+    padding:0 10px;
+    font-weight:800;
+    align-self: center;
+}
+.nav_row{
+    display:flex;
+}
+
+.nav{
+    background-color:#515195;
+}
+.nav_link{
+    text-decoration: none;
+    font-weight: 800;
+    color:#fff;
+    margin:10px 0px;
+    align-self: center;
+    padding-right:10px;
+}
+
+/*Earth*/
+.header_earth{
+    font-size:25px;
+    color:#000000;
+    margin:10px auto;
+    padding:0 10px;
+    font-weight:800;
+    text-align: center;
+}
+.earth_row{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.earth_items{
+    flex-basis: 50%;
+}
+
+
+
+/*Not_earth*/
+.not_earth{
+    background-color: cornflowerblue;
+}
+.not_earth_row{
+    display:flex;
+    align-items: center;
+
+}
+
+.not_image{
+    padding:50px 70px;
+}
+.not_image_2{
+    width:40%;
+    
+}
+.not_2_earth{
+    font-size:70px;
+    background-color:aqua;
+}
+.not_2_earth_row{
+    display:flex;
+    flex-direction:column;
+}
+
+
+/*Facts*/
+.facts{
+    background-color:#ffdc9b; 
+}
+.facts_row{
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+   
+   
+}
+.fact_1{
+    flex:1 1 33.3333%;
+    padding:50px 5px;
+    font-size: 25px;
+   
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+    background-color: #515195;
+    
+}
+.footer_text{
+    text-align: center;
+    font-size:15px;
+    margin:10px auto;
+    color:azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
